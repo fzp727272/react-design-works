@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "4bb1426e5a92587a14d2"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "fdaf01e73cbe1338151f"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -27155,7 +27155,7 @@
 	            imgtitle: "Xbox alive Login",
 	            titletext: "third party account login",
 	            image: "./img/xboxloginsmall.png",
-	            imgBig: "./img/xboxloginbig.png",
+	            imgBig: "./img/xboxloginbig.jpg",
 	            bottomtext: "2016/3-2016/4"
 	        }, {
 	            imgtitle: "CRICKET-Dashboard",
