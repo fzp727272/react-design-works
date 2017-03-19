@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "fff84573fe9c524008ec"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "4bb1426e5a92587a14d2"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -27133,46 +27133,60 @@
 	
 	        var images = [{
 	            id: "qwe",
-	            imgtitle: "APP GAGA",
-	            titletext: "上线项目",
-	            image: "./img/1.png",
-	            bottomtext: " 2017/6-2018/6"
+	            imgtitle: "Origin Login",
+	            titletext: "login flow ux design",
+	            image: "./img/Loginsmall.png",
+	            imgBig: "/img/Login.jpg",
+	            bottomtext: " 2016/8-2016/9"
 	        }, {
 	            id: "fewf",
-	            imgtitle: "荣泰订单系统",
-	            titletext: "荣泰内部订单管理系统，个人项目负责UX设计和前端开发",
-	            image: "./img/2.png",
-	            bottomtext: " 2017/6-2018/6"
+	            imgtitle: "Order Stystem",
+	            titletext: "dashboard design and front end coding",
+	            image: "./img/rongtaismall.png",
+	            imgBig: "./img/rongtaibig.png",
+	            bottomtext: " 2016/10-2016/11"
 	        }, { id: "wersv",
 	            imgtitle: "LOCALBOX-TOOL",
-	            titletext: "from 2016/3/12 to 2016/9/25",
-	            image: "./img/3.png",
-	            bottomtext: " 2017/6-2018/6"
+	            titletext: "web tool design",
+	            image: "./img/localbox-toolsmall.png",
+	            imgBig: "./img/localbox-toolbig.png",
+	            bottomtext: " 2017/1-2017/2"
 	        }, { id: "wfwf",
-	            imgtitle: "LOCALBOX-TOOL",
-	            titletext: "from 2016/3/12 to 2016/9/25",
-	            image: "./img/4.png",
-	            bottomtext: " 2017/6-2018/6"
-	        }, { id: "ewwerc",
-	            imgtitle: "LOCALBOX-TOOL",
-	            titletext: "from 2016/3/12 to 2016/9/25",
-	            image: "./img/5.png",
-	            bottomtext: " 2017/6-2018/6"
-	        }, { id: "fwef",
-	            imgtitle: "LOCALBOX-TOOL",
-	            titletext: "from 2016/3/12 to 2016/9/25",
-	            image: "./img/6.png",
-	            bottomtext: " 2017/6-2018/6"
-	        }, { id: "frds",
-	            imgtitle: "LOOOL",
-	            titletext: "from 2016/3/12 to 2016/9/25",
-	            image: "./img/7.png",
-	            bottomtext: " 2017/6-2018/6"
-	        }, { id: "gyg",
-	            imgtitle: "国航机供品项目",
-	            titletext: "from 2016/3/12 to 2016/9/25",
-	            image: "./img/8.png",
-	            bottomtext: " 2017/6-2018/6"
+	            imgtitle: "Xbox alive Login",
+	            titletext: "third party account login",
+	            image: "./img/xboxloginsmall.png",
+	            imgBig: "./img/xboxloginbig.png",
+	            bottomtext: "2016/3-2016/4"
+	        }, {
+	            imgtitle: "CRICKET-Dashboard",
+	            titletext: "Dashboard design for testers and boss",
+	            image: "./img/cricketsmall.png",
+	            imgBig: "./img/cricketbig.png",
+	            bottomtext: "2016/12-2017/1"
+	        }, {
+	            imgtitle: "GAGA App",
+	            titletext: "O2O education platform ",
+	            image: "./img/gagasmall.png",
+	            imgBig: "./img/gagabig.png",
+	            bottomtext: "2015/3-2015/9"
+	        }, {
+	            imgtitle: "MEIZHAI App",
+	            titletext: "O2O home decoration platform ",
+	            image: "./img/meizhaismall.png",
+	            imgBig: "./img/meizhai.png",
+	            bottomtext: "2015/8-2015/9"
+	        }, {
+	            imgtitle: "Web Registration",
+	            titletext: "registration flow design and design standar ",
+	            image: "./img/webregistrationsmall.png",
+	            imgBig: "./img/webregistrationbig.png",
+	            bottomtext: "2015/8-2015/9"
+	        }, {
+	            imgtitle: "KEYMASTER",
+	            titletext: "Keymaster ux flow design",
+	            image: "./img/keymastersmall.png",
+	            imgBig: "./img/keymasterbig.png",
+	            bottomtext: "2015/8-2015/9"
 	        }];
 	
 	        var _this = _possibleConstructorReturn(this, (Home.__proto__ || Object.getPrototypeOf(Home)).call(this));
@@ -27227,7 +27241,7 @@
 	                    "div",
 	                    { className: "waterfallcontainer" },
 	                    _react2.default.createElement(_navbar2.default, null),
-	                    _react2.default.createElement(_Waterfall2.default, { textHeight: 130, marginMid: 25, marginTop: 20, $father: (0, _jquery2.default)(".container"), waterfallStyle: waterfallStyle, images: this.state.images, colLg: 4, colMd: 3, colXs: 1 })
+	                    _react2.default.createElement(_Waterfall2.default, { textHeight: 100, marginMid: 25, marginTop: 20, $father: (0, _jquery2.default)(".container"), waterfallStyle: waterfallStyle, images: this.state.images, colLg: 4, colMd: 3, colXs: 1 })
 	                )
 	            );
 	        }
@@ -37808,7 +37822,7 @@
 	                                        'div',
 	                                        { className: 'modalContainer' },
 	                                        ' ',
-	                                        _react2.default.createElement('img', { src: this.props.images[i].image })
+	                                        _react2.default.createElement('img', { src: this.props.images[i].imgBig })
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'div',
@@ -39322,7 +39336,7 @@
 					{ className: 'loading-page ', style: this.props.loadpageStyle },
 					_react2.default.createElement(
 						'div',
-						{ style: { position: 'fixed', width: '100%', height: '100%', padding: '1em' } },
+						{ style: { position: 'fixed', width: '100%', height: '100%', padding: '1.5em' } },
 						_react2.default.createElement('div', { style: { border: '1px solid rgba(255,255,255,0.5)', height: '100%' } }),
 						_react2.default.createElement(
 							'div',
