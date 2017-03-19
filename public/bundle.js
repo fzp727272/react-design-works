@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "fdaf01e73cbe1338151f"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "75389a3aa9f1cb365df8"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -27136,7 +27136,7 @@
 	            imgtitle: "Origin Login",
 	            titletext: "login flow ux design",
 	            image: "./img/Loginsmall.png",
-	            imgBig: "/img/Login.jpg",
+	            imgBig: "/img/Login.png",
 	            bottomtext: " 2016/8-2016/9"
 	        }, {
 	            id: "fewf",
@@ -27155,7 +27155,7 @@
 	            imgtitle: "Xbox alive Login",
 	            titletext: "third party account login",
 	            image: "./img/xboxloginsmall.png",
-	            imgBig: "./img/xboxloginbig.jpg",
+	            imgBig: "./img/xboxloginbig.png",
 	            bottomtext: "2016/3-2016/4"
 	        }, {
 	            imgtitle: "CRICKET-Dashboard",
