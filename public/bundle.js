@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "75389a3aa9f1cb365df8"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "07f30edaf43e08c09205"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -27136,7 +27136,7 @@
 	            imgtitle: "Origin Login",
 	            titletext: "login flow ux design",
 	            image: "./img/Loginsmall.png",
-	            imgBig: "/img/Login.png",
+	            imgBig: "./img/Login.png",
 	            bottomtext: " 2016/8-2016/9"
 	        }, {
 	            id: "fewf",
