@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "07f30edaf43e08c09205"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "a202d2d63aae71f227b5"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -27177,7 +27177,7 @@
 	            bottomtext: "2015/8-2015/9"
 	        }, {
 	            imgtitle: "Web Registration",
-	            titletext: "registration flow design and design standar ",
+	            titletext: "registration flow design and design standard ",
 	            image: "./img/webregistrationsmall.png",
 	            imgBig: "./img/webregistrationbig.png",
 	            bottomtext: "2015/8-2015/9"
@@ -27187,6 +27187,22 @@
 	            image: "./img/keymastersmall.png",
 	            imgBig: "./img/keymasterbig.png",
 	            bottomtext: "2015/8-2015/9"
+	        }, {
+	            imgtitle: "VR DESIGN ",
+	            titletext: "display interior design works by VR",
+	            image: "./img/VRsmall.png",
+	            imgBig: "./img/VRbig.png",
+	            bottomtext: "2016/1-2016/2"
+	        }, { imgtitle: "AIRPORT SUPPLY",
+	            titletext: "air china supply management stystem",
+	            image: "./img/guohangbig.png",
+	            imgBig: "./img/guohangbig.png",
+	            bottomtext: "2014/10-2015/2"
+	        }, { imgtitle: "CG WORKS",
+	            titletext: "cg works collection",
+	            image: "./img/cgworks.png",
+	            imgBig: "./img/cgworks.png",
+	            bottomtext: "null"
 	        }];
 	
 	        var _this = _possibleConstructorReturn(this, (Home.__proto__ || Object.getPrototypeOf(Home)).call(this));
@@ -37826,7 +37842,7 @@
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        'div',
-	                                        { className: 'closebutton' },
+	                                        { className: 'closebutton closeblack' },
 	                                        _react2.default.createElement('span', { className: 'closeicon rounded thick' })
 	                                    ),
 	                                    ' '
