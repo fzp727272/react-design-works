@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "a202d2d63aae71f227b5"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "8832f92aa198152d1b88"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -27227,7 +27227,12 @@
 	        }
 	    }, {
 	        key: "componentDidMount",
-	        value: function componentDidMount() {}
+	        value: function componentDidMount() {
+	            (0, _jquery2.default)("#contactme").on("click", function () {
+	
+	                window.open("https://fzp727272.github.io/react-design-works/public/img/resume.pdf");
+	            });
+	        }
 	    }, {
 	        key: "showGallery",
 	        value: function showGallery() {
@@ -27332,22 +27337,12 @@
 						),
 						_react2.default.createElement(
 							'div',
-							{ className: 'nav-bar-button' },
-							_react2.default.createElement('img', { width: '18px', src: './img/download.svg' }),
+							{ className: 'nav-bar-button', id: 'contactme' },
+							_react2.default.createElement('img', { width: '20px', src: './img/look.svg' }),
 							_react2.default.createElement(
 								'span',
 								null,
-								' Resume'
-							)
-						),
-						_react2.default.createElement(
-							'div',
-							{ className: 'nav-bar-button' },
-							_react2.default.createElement('img', { width: '20px', src: './img/contact.svg' }),
-							_react2.default.createElement(
-								'span',
-								null,
-								' Me'
+								' My Resume'
 							)
 						)
 					)
@@ -27357,6 +27352,9 @@
 	
 		return Navbar;
 	}(_react.Component);
+	/*
+	<div className="nav-bar-button" id="downloadresume"><img width="18px" src="./img/download.svg"></img><span> Resume</span></div>
+	<Popover></Popover>*/
 	
 	exports.default = Navbar;
 
