@@ -1,0 +1,44 @@
+
+
+.popover {
+    @background-color: #fff;
+    @border-color: #ccc;
+    @shadow-color: #000;
+    @shadow-size: 10px;
+    @arrow-height: 10px;
+    @arrow-width: 24px;
+    
+    position: absolute;
+    max-width: 280px;
+    
+    background-color: @background-color;
+    border: 1px solid @border-color;
+    border-radius: 5px;
+    box-shadow: 0 0 @shadow-size fade(@shadow-color, 20%);
+    
+    &:before {
+        content: "";
+        position: absolute;
+        left: 18px;
+        bottom: 100%;
+        
+        display: block;
+        width: 0;
+        height: 0;
+        
+        border-left: @arrow-width / 2 solid transparent;
+        border-right: @arrow-width / 2 solid transparent;
+        border-bottom: @arrow-height solid @background-color;
+        
+        // NOTE: Uncomment this line to check the shape of the shadow
+        // box-shadow: 0 -@shadow-size / 2 @shadow-size fade(@shadow-color, 10%);
+    }
+    
+    &__message {
+        padding: 15px 18px;
+        
+        color: #333;
+        font: 16px/20px sans-serif;
+        text-shadow: 0 0 1px fade(#000, 10%);
+    }
+}
